@@ -5,7 +5,7 @@
 > * 用SuperXSS √
 
 SuperXSS是一个基于Websocket的客户端网页代理程序，客户端JS被注入之后会创建到指定服务端的Websocket连接并接收命令进行XHR请求，从而使得无法直接访问的后台等可以通过客户端浏览器本身作为代理访问。
-程序本身分为两部分，前端JS部分感谢@Archeb，后端本人使用Workerman瞎写的代码。
+程序本身分为两部分，前端JS部分感谢@[https://github.com/Archeb](Archeb)，后端本人使用Workerman瞎写的代码。
 程序本身并不稳定，不过至少能够操作一下后台。
 
 ### 使用
