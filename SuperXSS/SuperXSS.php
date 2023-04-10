@@ -9,7 +9,7 @@ require_once __DIR__ . '/Function.php';
 $Config = require_once __DIR__ . '/Config.php';
 
 $Hijack_console_worker = new Worker($Config['HIJACK_CONSOLE_LISTEN']);
-$WS_listen_worker = new Worker($Config['WS_LISTEN']);
+$WS_listen_worker = new Worker($Config[,,,,'WS_LISTEN']);
 $GlobalData_Worker = new GlobalData\Server('127.0.0.1', 22018);
 
 $Hijack_console_worker -> count = $Config['CONSOLE_WORKER_COUNT'];
